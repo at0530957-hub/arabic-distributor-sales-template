@@ -1,0 +1,7 @@
+{
+  "name": "arabic-distributor-sales-template",
+  "version": "0.1.0",
+  "description": "Arabic-first sales and collections dashboard template for small distributors. Demo data only.",
+  "license": "MIT",
+  "scripts": { "test": "node tests/test.js" }
+}
