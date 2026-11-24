@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>قالب مبيعات وتحصيل للموزعين</title>
+<link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+<header><h1>قالب مبيعات وتحصيل للموزعين</h1><small>Sales &amp; Collections Template (demo data)</small></header>
+<main>
+<div class="notice">كل البيانات هنا وهمية للتجربة فقط. / All data is fake demo data.</div>
+<div id="kpis"></div>
+<section><h2>أداء المندوبين (الشهر الحالي)</h2>
+<table><thead><tr><th>المندوب</th><th>المنطقة</th><th>الهدف</th><th>المبيعات</th><th>الفجوة</th><th>التحقيق</th></tr></thead><tbody id="reps"></tbody></table></section>
+<section><h2>أعمار الديون (بالأيام)</h2>
+<table><thead><tr><th>العميل</th><th>0-30</th><th>31-60</th><th>61-90</th><th>+90</th><th>الإجمالي</th></tr></thead><tbody id="aging"></tbody></table></section>
+</main>
+<script src="src/demo-data.js"></script>
+<script src="src/lib.js"></script>
+<script src="src/app.js"></script>
+</body>
+</html>
